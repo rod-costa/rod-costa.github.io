@@ -1,0 +1,299 @@
+@ charset utf-8
+    
+        
+{ 
+    margin: 0;
+    padding: 0;
+
+}
+    header {
+    width: 100%;
+    height: auto;
+    background: #646464;
+    margin: 0 auto;
+        
+}
+
+.imagempng {
+    text-align: center;
+}
+
+.datahora {
+    text-align: right;
+}
+
+/* MENU E SUB MENUS *//* MENU E SUB MENUS *//* MENU E SUB MENUS */
+.menu,
+.sub-menu {
+    margin: 0;
+    padding: 0;
+     margin-top: 3px;
+    
+}
+.clearfix:after{
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+.menu,
+.sub-menu {
+    list-style: none;
+    background: #646464;
+}
+.sub-menu {
+    background: #444;
+}
+.menu a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.menu li {
+    position: relative;
+}
+.menu > li {
+    float: left;
+}
+.menu > li:hover {
+    background: #444;
+}
+.menu li:hover > .sub-menu {
+    display: block;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+}
+.sub-menu li:hover {
+    background: #555;
+}
+.sub-menu .sub-menu {
+    top: 0;
+    left: 100%;
+}
+/* MENU E SUB MENUS *//* MENU E SUB MENUS *//* MENU E SUB MENUS */
+
+}
+    body {
+    background: #ffffff;
+    font-family: Arial;
+}
+
+    footer {
+    width: 100%;
+    height: 265px;
+    background: #646464;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+
+.home contact {
+  text-decoration: none;
+    display: block;
+    padding: 10px; 
+}
+
+/* hs 1 2 3 4 5 6 *//* hs 1 2 3 4 5 6 *//* hs 1 2 3 4 5 6 *//* hs 1 2 3 4 5 6 *//* hs 1 2 3 4 5 6 */
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: sans-serif
+}
+
+h3 {
+    text-align: center;
+    font-family: sans-serif;
+}
+h4 {
+    font-size: 10px;
+    text-align: center;
+    margin-right: 25px;
+    
+}
+
+h5 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: 35px;
+    background: #444;
+    color: #fff; 
+    margin-left: 0px;
+}
+
+/* hs 1 2 3 4 5 6 *//* hs 1 2 3 4 5 6 *//* hs 1 2 3 4 5 6 *//* hs 1 2 3 4 5 6 *//* hs 1 2 3 4 5 6 */
+
+
+.formu {
+    text-align: center
+}
+
+.myform {
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.contactos {
+    text-align:center;
+    
+}
+
+
+}
+/* contactos*//* contactos*//* contactos*//* contactos*//* contactos*/
+
+
+.fernanda {
+font-family: sans-serif;
+text-align: center;
+}
+
+
+.morada {
+    display: inline;
+    font-family: sans-serif;
+}
+
+.tele {
+    display: inline;
+    font-family: sans-serif;
+}
+
+.mail {
+    display: inline;
+    font-family: sans-serif;
+}
+
+.maps {
+    margin-left: 70px;
+}
+/* contactos*//* contactos*//* contactos*//* contactos*//* contactos*/
+
+.ancora {
+    text-align: right;
+    margin-top: auto;
+    position: inherit;       
+}
+
+.acupuntura {
+    font-family: sans-serif;
+}
+
+.imgnet {
+    display: inline;
+    margin-left: 35%;
+}
+
+/* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*/
+
+* {box-sizing:border-box}
+body {font-family: sans-serif;}
+.mySlides {
+    display:none;
+     overflow: hidden;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+ 
+
+
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;ss
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*//* slider*/
+
+.Dr {
+    text-align: center;
+    
+}
+
+.separador {
+    text-align: center;
+    width: 400px;
+    font-size: 20px;
+    Color: #444;
+     
+}
+
+.dicas {
+    text-align: center;
+    background-color: #beb8e0; 
+}
